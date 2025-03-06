@@ -25,5 +25,5 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEY }}
           source: "dist/*"
-          target: "public_html"
+         target: "domains/valentinomenu.com/public_html"
           strip_components: 1
